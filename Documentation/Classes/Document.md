@@ -66,7 +66,9 @@ Along with the picture properties above these provide some useful actions for wo
 |**.getPicture**()-> $picture : Picture | Returns the content of the file as a picture. |
 
 
+
  #### Classic Document Functions
+
 You can choose to work with the document using the classic commands. There are some good reasons for using these commands but in general the modern ones are better.
 
 Be smart when you use these. It’s possible to combine the classic and modern functions. For instance - you can be writing to a file using `.send_packet()` and then use `$class.getText()` without having to close the document. However, attempting to use both `.send_packet()` _and_`.$class.setText()` is likely to have unpredicatable results.
