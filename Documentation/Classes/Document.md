@@ -28,16 +28,16 @@ These are properties of the class beyond the regular **4D.File** properties:
 
 | Property                    | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
-| **hash**: Text              | MD5 hash of contents of the file.                            |
-| **kind**: Text              | General kind of file: json, word, excel, image, document     |
-| **pictureWidth**: Integer   | If the contents are a picture                                |
-| **pictureHeight**: Integer  | If the contents are a picture                                |
-| **pictureOrientation**:Text | If the contents are a picture - landscape, portrait, square  |
-| **isDefined**: Boolean      | True if the class has a file defined. The file may or may not exist yet. |
+| **docErrText**: Text        | Error text of the classic document                           |
 | **docRef**: Time            | Document ref of opened document.                             |
+| **hash**: Text              | MD5 hash of contents of the file.                            |
+| **isDefined**: Boolean      | True if the class has a file defined. The file may or may not exist yet. |
 | **isDocOpen**: Boolean      | True if the referenced file has been opened with **Open document** |
 | **isDocError**: Boolean     | True if there has been an error using the classic document commands. |
-| **docErrText**: Text        | Text of the classic document                                 |
+| **kind**: Text              | General kind of file: json, word, excel, image, document     |
+| **pictureHeight**: Integer  | If the contents are a picture                                |
+| **pictureOrientation**:Text | If the contents are a picture - landscape, portrait, square  |
+| **pictureWidth**: Integer   | If the contents are a picture                                |
 
 The `.hash` property is a simple MD5 hash of the contents. It’s useful for identifying a file by it’s contents rather than the title or size. If two files have the same hash value it is highly likely they have the same contents. 
 
