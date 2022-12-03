@@ -1,7 +1,7 @@
 Wrapper for 4D.File
 ## Document - wrapper for 4D.File
 
-Document provides all the functions of **4D.File** plus several others for file handling.
+Document provides all the functions of **[4D.File](https://doc.4d.com/4Dv19R6/4D/19-R6/File.301-5910568.en.html)** plus several others for file handling.
 
 ### Instantiating
 
