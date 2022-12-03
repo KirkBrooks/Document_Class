@@ -57,7 +57,7 @@ All the functions of **4D.File** are available with the same parameters and resu
 
 
 
-#### Picture functions
+### Picture functions
 
 Along with the picture properties above these provide some useful actions for working with picture files.
 
@@ -67,7 +67,7 @@ Along with the picture properties above these provide some useful actions for wo
 
 
 
- #### Classic Document Functions
+ ### Classic Document Functions
 
 You can choose to work with the document using the classic commands. There are some good reasons for using these commands but in general the modern ones are better.
 
